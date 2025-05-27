@@ -66,6 +66,8 @@ const DonationProgress: React.FC = () => {
 
   const totalRaised = donors.reduce((sum, donor) => sum + donor.amount, 0);
   const percentage = Math.min((totalRaised / GOAL) * 100, 100);
+  const totalDonations = donors.length;
+  const totalComments = donors.filter(donor => donor.message?.trim() !== "").length;
 
   const indexOfLastDonor = currentPage * DONORS_PER_PAGE;
   const indexOfFirstDonor = indexOfLastDonor - DONORS_PER_PAGE;
@@ -96,9 +98,21 @@ const DonationProgress: React.FC = () => {
             {Math.floor(percentage)}%
           </div>
         </div>
-        <p className="text-gray-600 mt-2">
+        <p className="text-gray-600 mt-2 text-sm">
           ${totalRaised.toLocaleString()} raised of ${GOAL.toLocaleString()} goal
         </p>
+
+        {/* Total Donations & Comments */}
+        <div className="mt-4 flex justify-center gap-12 text-gray-700">
+          <div className="text-center">
+            <p className="text-sm">Total Donations</p>
+            <p className="text-2xl font-bold">{totalDonations}</p>
+          </div>
+          <div className="text-center">
+            <p className="text-sm">Total Comments</p>
+            <p className="text-2xl font-bold">{totalComments}</p>
+          </div>
+        </div>
       </div>
 
       {/* Donor Comments */}
