@@ -18,7 +18,7 @@ const DonationHome: React.FC = () => {
           <div className="mt-4 px-5 flex items-center space-x-4 ">
 
             <div>
-              <h2 className="text-xl font-semibold text-gray-800">Julia Purosky</h2>
+              <h2 className="text-xl font-semibold text-gray-800">Help the Displaced in Palestine</h2>
               <div className="flex items-center space-x-2 text-gray-600">
                 <MapPinIcon className="h-5 w-5 text-green-600" />
                 <p className="text-sm">Gaza</p>
