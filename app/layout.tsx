@@ -21,7 +21,7 @@ export default function RootLayout({
         
           <AuthProvider>
             <div className="relative z-[1000]">
-              <Navbar />
+              {/* <Navbar /> */} //maintenance
             </div>
             {children}
             <Footer />
