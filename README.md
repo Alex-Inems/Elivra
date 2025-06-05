@@ -57,10 +57,6 @@ License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-For any inquiries or feedback, please reach out to:
-
-Alex  - www.inema9886@gmail.com
 
 
 ### LICENSE
