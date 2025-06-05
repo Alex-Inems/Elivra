@@ -1,6 +1,5 @@
 # elivra
 
-elivra is a powerful application designed to assist Small and Medium Enterprises (SMEs) across Africa in managing their business processes more effectively. With features such as Multiple Live Cart POS, elivra provides a seamless experience for both businesses and their customers.
 
 ## Table of Contents
 
