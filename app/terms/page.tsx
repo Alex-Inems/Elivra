@@ -36,7 +36,7 @@ export default function TermsPage() {
   
         <h2 className="text-2xl font-semibold mt-8 mb-4">6. Contact</h2>
         <p className="mb-4">
-          Questions? Email us at support@elivra.net
+          Questions? Email us at support@elivra.live
         </p>
       </main>
     );
